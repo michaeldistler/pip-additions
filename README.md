@@ -12,7 +12,7 @@
 import pip_additions
 requirements_results = pip_additions.parse_requirements()
 supported_requirements = requirements_results.req
-unsupported_requirements = requirements_results.req
+unsupported_requirements = requirements_results.ureq
 ```
 
 ## install_unsupported
@@ -25,7 +25,7 @@ unsupported_requirements = requirements_results.req
 import pip_additions
 requirements_results = pip_additions.parse_requirements()
 supported_reqs = requirements_results.req
-unsupported_reqs = requirements_results.req
+unsupported_reqs = requirements_results.ureq
 
 pip_additions.install_unsupported(unsupported_reqs)
 ```
