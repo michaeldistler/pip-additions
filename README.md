@@ -5,7 +5,7 @@
 ## parse_requirements
 
 #### Description
-**parse_requirements** returns "supported" and "unsupported requirements.  Supported requirements are those that can be installed through pip using **setuptools.setup**; any package in PyPi.  Unsupported requirements are those that cannot be installed through pip and setuptools, but _can_ be installed through pip itself; mainly, private github repositories.
+**parse_requirements** returns "supported" and "unsupported requirements".  Supported requirements are those that can be installed through pip using **setuptools.setup**; any package in PyPi.  Unsupported requirements are those that cannot be installed through pip and setuptools, but _can_ be installed through pip itself; mainly, private github repositories.
 
 #### Usage
 ```
