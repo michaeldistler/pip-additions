@@ -6,6 +6,8 @@ setup(
     author='Michael Distler',
     author='michael.distler@gmail.com',
     description='Additional Pip Utilities',
+    url='https://github.com/michaeldistler/pip-additions',
+    download_url='https://github.com/michaeldistler/pip-additions/archive/0.1.tar.gz',
     packages=find_packages(),
     install_requires=[
         'setuptools'
