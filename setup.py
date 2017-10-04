@@ -4,7 +4,7 @@ import pip
 setup(
     name='pip-additions',
     author='Michael Distler',
-    author='michael.distler@gmail.com',
+    author_email='michael.distler@gmail.com',
     description='Additional Pip Utilities',
     url='https://github.com/michaeldistler/pip-additions',
     download_url='https://github.com/michaeldistler/pip-additions/archive/0.1.tar.gz',
@@ -12,6 +12,6 @@ setup(
     install_requires=[
         'setuptools'
     ],
-    version=0.1
+    version=0.2
 )
 
